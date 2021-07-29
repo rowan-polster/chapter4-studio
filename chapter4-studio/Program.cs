@@ -6,7 +6,7 @@ namespace chapter4_studio
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+
         }
     }
 }

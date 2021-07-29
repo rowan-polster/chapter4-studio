@@ -6,20 +6,11 @@ namespace chapter4_studio
 {
         public class MenuItems
         {
-            private string Name { get; set; }
-            private double Price { get; set; }
-            private string Description { get; set; }
-            private List<string> Category { get; set; }
-            private bool IsNew { get; set; }
-
-            public MenuItems(string name, double price, string description, List<string> category, bool isNew)
-            {
-                this.Name = name;
-                this.Price = price;
-                this.Description = description;
-                this.Category = category;
-                this.IsNew = isNew;
-            }
+            public string Name { get; set; }
+            public double Price { get; set; }
+            public string Description { get; set; }
+            public string Category { get; set; }  //Maybe a list? This way seems more straightforward?? Categories include Appetizer, Main, and Dessert
+            public bool IsNew { get; set; } //if dish was added in the last 60 days, IsNew = true
         }
     }
 
